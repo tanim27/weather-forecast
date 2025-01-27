@@ -32,7 +32,7 @@ const Home = () => {
 	return (
 		<div className='min-h-screen flex flex-col items-center bg-gradient-to-b from-blue-100 to-blue-300 py-10 px-5'>
 			<h1 className='text-4xl font-extrabold text-gray-800 mb-10 drop-shadow-sm'>
-				Weather App
+				WeatherCast
 			</h1>
 			<form
 				onSubmit={handleSubmit}
