@@ -1,5 +1,5 @@
-const WeatherCard = ({ weatherData }) => {
-	const { name, main, weather } = weatherData
+const WeatherCard = ({ weatherdata }) => {
+	const { name, main, weather } = weatherdata
 
 	return (
 		<div className='bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 p-8 rounded-xl shadow-2xl max-w-lg w-full text-white'>

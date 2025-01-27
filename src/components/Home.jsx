@@ -53,7 +53,7 @@ const Home = () => {
 				</button>
 			</form>
 			{error && <p className='text-red-600 font-medium'>{error}</p>}
-			{weatherData && <WeatherCard weatherData={weatherData} />}
+			{weatherData && <WeatherCard weatherdata={weatherData} />}
 		</div>
 	)
 }
